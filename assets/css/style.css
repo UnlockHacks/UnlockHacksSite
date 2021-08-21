@@ -388,7 +388,7 @@ span {
 #hero {
   width: 100%;
   height: calc(100vh - 40px);
-  background: url(../img/hero-bg.png) center bottom no-repeat;
+  background: url("../img/green.jpg") center bottom no-repeat;
   background-size: 100%;
   position: relative;
   margin-top: 40px;
@@ -661,15 +661,16 @@ section {
 
 /* About Us Section
 --------------------------------*/
-#about-us img {
+.linear { background : linear-gradient( 45deg, #84da17, bisque ) ; }
+#about img {
   max-width: 100%;
 }
 
-#about-us .about-content {
+#about .about-content {
   padding-top: 60px;
 }
 
-#about-us .about-content h2 {
+#about .about-content h2 {
   color: #252525;
   font-family: "roboto";
   font-size: 39px;
@@ -679,17 +680,17 @@ section {
   text-transform: capitalize;
 }
 
-#about-us .about-content span {
+#about .about-content span {
   font-weight: 700;
   padding-right: 10px;
   text-transform: uppercase;
 }
 
-#about-us .about-content ul li {
+#about .about-content ul li {
   line-height: 36px;
 }
 
-#about-us .about-content ul li .fa {
+#about .about-content ul li .fa {
   padding-right: 20px;
 }
 
@@ -935,7 +936,7 @@ section {
   transition: all 0.5s ease-in-out 0s;
 }
 
-/* Testimonials Section
+/* FAQ Section
 --------------------------------*/
 #testimonials .testimonials-content {
   box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
@@ -972,11 +973,12 @@ section {
   margin-left: 26px;
 }
 
-#testimonials .btm-btm ul li {
+#testimonials .btm-btm d1 dt {
   float: left;
   margin: 0 8px;
   border-radius: 50%;
   padding: 0;
+  vertical-align: -200px;
   overflow: hidden;
   background: #ddd none repeat scroll 0 0;
   cursor: pointer;
@@ -1006,9 +1008,13 @@ section {
   display: inline-block;
 }
 
-.carousel-indicators li {
-  margin: 0;
+.carousel-control-next {
+  color: #808080;
 }
+.carousel-control-prev {
+  color: #808080;
+}
+  
 
 /* Pricing Table Section
 --------------------------------*/
