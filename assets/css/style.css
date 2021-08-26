@@ -1,3 +1,4 @@
+
 /**
 * Template Name: eStartup - v4.3.0
 * Template URL: https://bootstrapmade.com/estartup-bootstrap-landing-page-template/
@@ -9,43 +10,52 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@font-face
+{
+   font-family: UhBee-Se_hyunimport;
+   src: url("UhBee-Se_hyun.ttf");
+}
 body {
   background-color: #fff;
   color: #333;
 }
 
 h1, h2, h3, h4, h5, h6 {
+  font-family: UhBee-Se_hyunimport;
   margin: 0;
 }
 
 h2 {
   color: #000;
-  font-weight: 600;
+  font-weight: 500;
+  font-size: 20px;
 }
 
 h4 {
   color: #000;
   font-size: 13px;
-  font-weight: 700;
+  font-weight: 500;
   letter-spacing: 2px;
   text-transform: uppercase;
   line-height: 2;
 }
 
 h5 {
-  color: #626262;
-  font-size: 14px;
+  color: #c593c7;
+  font-size: 13px;
   font-weight: 500;
 }
 
 a {
   letter-spacing: 2px;
   text-decoration: none;
-  color: #71c55d;
+  color: #c593c7;
+  font-family: UhBee-Se_hyunimport;
 }
 
 a:hover {
   color: #92d283;
+
 }
 
 ul {
@@ -56,6 +66,7 @@ li {
   color: #626262;
   font-size: 13px;
   font-weight: 400;
+  font-family: UhBee-Se_hyunimport;
   letter-spacing: 2px;
   line-height: 30px;
   text-transform: capitalize;
@@ -65,9 +76,11 @@ p {
   color: #505050;
   font-size: 14px;
   font-weight: 300;
+  font-family: "roboto";
   letter-spacing: 0.5px;
   line-height: 2;
   margin-bottom: 20px;
+  margin-top: 10px;
 }
 
 span {
@@ -111,7 +124,7 @@ span {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #71c55d;
+  background: #C593C7;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -125,7 +138,7 @@ span {
 }
 
 .back-to-top:hover {
-  background: #8bd07b;
+  background: #C8A2C8;
   color: #fff;
 }
 
@@ -159,7 +172,7 @@ span {
 }
 
 #header #logo h1 a span {
-  color: #71c55d;
+  color: #C593C7;
 }
 
 #header #logo img {
@@ -200,7 +213,7 @@ span {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-family: "Roboto", sans-serif;
+  font-family: UhBee-Se_hyunimport;
   font-size: 15px;
   color: #222;
   white-space: nowrap;
@@ -215,7 +228,7 @@ span {
 }
 
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #71c55d;
+  color: #C593C7;
 }
 
 .navbar .dropdown ul {
@@ -248,7 +261,7 @@ span {
 }
 
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #71c55d;
+  color: #C593C7;
 }
 
 .navbar .dropdown:hover > ul {
@@ -388,7 +401,7 @@ span {
 #hero {
   width: 100%;
   height: calc(100vh - 40px);
-  background: url("../img/green.jpg") center bottom no-repeat;
+  background: url("") center bottom no-repeat;
   background-size: 100%;
   position: relative;
   margin-top: 40px;
@@ -415,11 +428,11 @@ span {
 
 #hero h1 {
   margin: 0 0 10px 0;
-  font-size: 48px;
-  font-weight: 700;
+  font-size: 40px;
+  font-weight: 500;
   line-height: 56px;
-  font-family: "Philosopher", sans-serif;
-  color: #71c55d;
+  font-family: "UhBee-Se_hyunimport";
+  color: #C593C7;
 }
 
 @media (max-width: 768px) {
@@ -430,10 +443,10 @@ span {
 }
 
 #hero h2 {
-  color: #777;
+  color: #C593C7;
   margin-bottom: 30px;
   font-size: 20px;
-  font-family: "Roboto", sans-serif;
+  font-family: UhBee-Se_hyunimport;
   font-weight: 300;
 }
 
@@ -451,7 +464,7 @@ span {
 }
 
 #hero .btn-get-started {
-  font-family: "Roboto", sans-serif;
+  font-family: UhBee-Se_hyunimport;
   text-transform: uppercase;
   font-weight: 400;
   font-size: 13px;
@@ -461,14 +474,14 @@ span {
   border-radius: 50px;
   transition: 0.5s;
   margin-bottom: 30px;
-  border: 2px solid #71c55d;
+  border: 2px solid #C593C7;
   background: #fff;
-  color: #71c55d;
+  color: #C593C7;
   text-decoration: none;
 }
 
 #hero .btn-get-started:hover {
-  background: #71c55d;
+  background: #C593C7;
   color: #fff;
 }
 
@@ -489,7 +502,7 @@ span {
 }
 
 #hero .btns a:hover {
-  color: #71c55d;
+  color: #C593C7;
 }
 
 /*--------------------------------------------------------------
@@ -522,7 +535,7 @@ section {
 }
 
 .section-title h2 {
-  font-family: "Roboto", sans-serif;
+  font-family: UhBee-Se_hyunimport;
   font-size: 45px;
   font-weight: 100;
   letter-spacing: 2px;
@@ -536,7 +549,7 @@ section {
 
 .separator {
   color: #626262;
-  font-family: "Roboto", sans-serif;
+  font-family: UhBee-Se_hyunimport;
   font-size: 15px;
   font-weight: 300;
   margin-bottom: 30px;
@@ -661,7 +674,7 @@ section {
 
 /* About Us Section
 --------------------------------*/
-.linear { background : linear-gradient( 45deg, #84da17, bisque ) ; }
+.linear { background : linear-gradient( 45deg, #C593C7, bisque ) ; }
 #about img {
   max-width: 100%;
 }
@@ -671,8 +684,8 @@ section {
 }
 
 #about .about-content h2 {
-  color: #252525;
-  font-family: "roboto";
+  color: #cccff;
+  font-family: UhBee-Se_hyunimport;
   font-size: 39px;
   font-weight: 100;
   letter-spacing: 2px;
@@ -947,7 +960,7 @@ section {
   color: #71c55d;
   content: "";
   display: inline-block;
-  font: 70px/1 FontAwesome;
+  font: 70px/1 UhBee-Se_hyunimport;
   position: absolute;
   right: 43px;
   text-align: left;
@@ -955,7 +968,7 @@ section {
 }
 
 #testimonials .top-top > h2 {
-  font-family: "Roboto" sans-serif;
+  font-family: UhBee-Se_hyunimport;
   font-size: 45px;
   font-weight: 100;
   letter-spacing: 2px;
@@ -964,7 +977,7 @@ section {
 }
 
 #testimonials .top-top > h4 {
-  font: 700 12px Lato, sans-serif;
+  font: 700 12px UhBee-Se_hyunimport, sans-serif;
 }
 
 #testimonials .top-top span {
@@ -1398,7 +1411,7 @@ section {
   color: #fff;
   display: inline-block;
   float: none;
-  font-family: "Philosopher", sans-serif;
+  font-family: UhBee-Se_hyunimport;
   font-size: 24px;
   font-weight: 500;
   height: 100%;
