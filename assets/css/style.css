@@ -27,8 +27,8 @@ h1, h2, h3, h4, h5, h6 {
 
 h2 {
   color: #000;
-  font-weight: 500;
-  font-size: 20px;
+  font-weight: 450;
+  font-size: 18px;
 }
 
 h4 {
@@ -356,7 +356,7 @@ span {
 }
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #71c55d;
+  color: #C593C7;
 }
 
 .navbar-mobile .getstarted {
@@ -388,7 +388,7 @@ span {
 }
 
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #71c55d;
+  color: #C593C7;
 }
 
 .navbar-mobile .dropdown > .dropdown-active {
@@ -479,12 +479,32 @@ span {
   color: #C593C7;
   text-decoration: none;
 }
+#hero .btn-volunteer {
+  font-family: UhBee-Se_hyunimport;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 8px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 26px;
+  border-radius: 30px;
+  transition: 0.5s;
+  margin-bottom: 10px;
+  border: 1px solid #C593C7;
+  background: #fff;
+  color: #C593C7;
+  text-decoration: none;
+}
 
 #hero .btn-get-started:hover {
   background: #C593C7;
   color: #fff;
 }
 
+#hero .btn-volunteer:hover {
+  background: #C593C7;
+  color: #fff;
+}
 #hero .btns a {
   color: #555;
   font-size: 11px;
@@ -676,7 +696,8 @@ section {
 --------------------------------*/
 .linear { background : linear-gradient( 45deg, #C593C7, bisque ) ; }
 #about img {
-  max-width: 100%;
+  max-width: 50%;
+  max-height: 50%;
 }
 
 #about .about-content {
@@ -957,7 +978,7 @@ section {
 }
 
 #testimonials .testimonials-content::before {
-  color: #71c55d;
+  color: #C593C7;
   content: "";
   display: inline-block;
   font: 70px/1 UhBee-Se_hyunimport;
